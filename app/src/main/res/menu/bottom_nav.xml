@@ -4,7 +4,7 @@
     <item android:title="Kegiatan"
         android:id="@+id/bottom_home"
         android:icon="@drawable/nav_kegiatan"/>
-    <item android:title="Community"
+    <item android:title="Komunitas"
         android:id="@+id/bottom_community"
         android:icon="@drawable/nav_komunitas"/>
     <item android:title="Konten Edukasi"
