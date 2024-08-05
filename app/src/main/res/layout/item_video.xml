@@ -30,7 +30,7 @@
             android:textSize="16sp"
             android:textColor="#555555"
             android:fontFamily="@font/coolvetica_ondensed_rg"
-            android:text="Deskripsi Video"
+            android:text="@string/txt_deskripsi_video"
             android:layout_margin="10dp"/>
     </LinearLayout>
 

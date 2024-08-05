@@ -28,7 +28,7 @@
             android:textStyle="bold"
             android:textColor="#555555"
             android:fontFamily="@font/coolvetica_ondensed_rg"
-            android:text="Nama"
+            android:text="@string/txt_nama_komunitas"
             android:layout_marginTop="8dp"/>
 
         <TextView
@@ -38,7 +38,7 @@
             android:textSize="16sp"
             android:textColor="#555555"
             android:fontFamily="@font/coolvetica_ondensed_rg"
-            android:text="Deskripsi"
+            android:text="@string/txt_deskripsi_komunitas"
             android:layout_marginTop="4dp"/>
 
         <TextView
@@ -49,7 +49,7 @@
             android:textStyle="italic"
             android:textColor="#777777"
             android:fontFamily="@font/coolvetica_ondensed_rg"
-            android:text="Alamat"
+            android:text="@string/txt_alamat_komunitas"
             android:layout_marginTop="4dp"/>
 
         <TextView
@@ -60,7 +60,7 @@
             android:textStyle="italic"
             android:textColor="#777777"
             android:fontFamily="@font/coolvetica_ondensed_rg"
-            android:text="Website"
+            android:text="@string/txt_website_komunitas"
             android:layout_marginTop="4dp"
             android:autoLink="web"/>
 

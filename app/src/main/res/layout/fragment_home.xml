@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Jadwal Kegiatan"
+                android:text="@string/txt_card_jadwal"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/coolvetica_rg"
@@ -49,7 +49,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Senin - Minggu"
+                android:text="@string/txt_card_hari"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/coolvetica_ondensed_rg"
@@ -58,7 +58,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mulai - 18.00 PM"
+                android:text="@string/txt_card_mulai"
                 android:textSize="12sp"
                 android:fontFamily="@font/coolvetica_ondensed_rg"
                 android:layout_marginStart="60dp"
@@ -66,7 +66,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Selesai - 19.00 PM"
+                android:text="@string/txt_card_selesai"
                 android:textSize="12sp"
                 android:fontFamily="@font/coolvetica_ondensed_rg"
                 android:layout_marginStart="60dp"
@@ -95,7 +95,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lokasi Kegiatan"
+                android:text="@string/txt_card_lokasi"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/coolvetica_rg"
@@ -152,7 +152,7 @@
                 android:backgroundTint="@color/hijau"
                 android:layout_marginStart="120dp"
                 android:layout_marginBottom="10dp"
-                android:text="Cari"/>
+                android:text="@string/txt_btn_cari"/>
         </androidx.cardview.widget.CardView>
         <View
             android:id="@+id/view_kosong"

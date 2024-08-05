@@ -5,4 +5,23 @@
     <string name="lokasi_kegiatan">Jl. Wastukencana No.27, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117</string>
     <string name="deskripsi_kegiatan">Mengadakan kegiatan pengajian dan Magrib Mengaji setiap hari setelah sholat Maghrib.</string>
     <string name="nama_tempat">Masjid Al Ukhuwah</string>
+    <string name="nav_kegiatan">Kegiatan</string>
+    <string name="nav_komunitas">Komunitas</string>
+    <string name="nav_konten_edukasi">Konten Edukasi</string>
+    <string name="Judul_Appbar">Magrib Mengaji</string>
+    <string name="Judul_Fragment_Komunitas">Komunitas Pengajian Bandung</string>
+    <string name="txt_card_komunitas">Komunitas Pengajian</string>
+    <string name="Judul_Fragment_Content">Kumpulan Video Edukasi</string>
+    <string name="txt_card_content">Konten Edukasi</string>
+    <string name="txt_card_jadwal">Jadwal Kegiatan</string>
+    <string name="txt_card_hari">Senin - Minggu</string>
+    <string name="txt_card_mulai">Mulai - 18.00 PM</string>
+    <string name="txt_card_selesai">Selesai - 19.00 PM</string>
+    <string name="txt_card_lokasi">Lokasi Kegiatan</string>
+    <string name="txt_btn_cari">Cari</string>
+    <string name="txt_nama_komunitas">Nama Komunitas</string>
+    <string name="txt_deskripsi_komunitas">Deskripsi</string>
+    <string name="txt_alamat_komunitas">Alamat</string>
+    <string name="txt_website_komunitas">Website</string>
+    <string name="txt_deskripsi_video">Deskripsi Video</string>
 </resources>

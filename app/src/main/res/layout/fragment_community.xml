@@ -9,7 +9,7 @@
         android:id="@+id/txt_judul_Komunitas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Komunitas Pengajian Bandung"
+        android:text="@string/Judul_Fragment_Komunitas"
         android:textSize="24sp"
         android:layout_margin="10dp"
         android:fontFamily="@font/coolvetica_rg"
@@ -40,7 +40,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Komunitas Pengajian"
+            android:text="@string/txt_card_komunitas"
             android:textSize="18sp"
             android:textStyle="bold"
             android:fontFamily="@font/coolvetica_rg"
