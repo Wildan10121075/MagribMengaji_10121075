@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brown">#e4c0a8</color>
+    <color name="brown2">#c08457</color>
+    <color name="brown3">#f2dfd3</color>
+
+    <color name="abu">#80FFFFFF</color>
+    <color name="putih_bone">#F9F6EE</color>
+    <color name="putih_bone2">#F6F4F1</color>
+    <color name="hijau">#165646</color>
+    <color name="kuning_terang">#d0d0d0</color>
+
+</resources>

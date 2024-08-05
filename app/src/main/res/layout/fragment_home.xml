@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_kegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/jadwal_kegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/putih_bone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rv_kegiatan"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="15dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_kegiatan_jadwal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jadwal Kegiatan"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/coolvetica_rg"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="22dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senin - Minggu"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/coolvetica_ondensed_rg"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mulai - 18.00 PM"
+                android:textSize="12sp"
+                android:fontFamily="@font/coolvetica_ondensed_rg"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="70dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selesai - 19.00 PM"
+                android:textSize="12sp"
+                android:fontFamily="@font/coolvetica_ondensed_rg"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="85dp"
+                android:layout_marginBottom="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/putih_bone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/jadwal_kegiatan"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="15dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_kegiatan_tempat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lokasi Kegiatan"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/coolvetica_rg"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="22dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/tempat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="280dp"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/coolvetica_ondensed_rg"
+                android:text="@string/nama_tempat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="310dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:textColor="#555555"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/coolvetica_ondensed_rg"
+                android:text="@string/deskripsi_kegiatan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textColor="#777777"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/coolvetica_ondensed_rg"
+                android:text="@string/lokasi_kegiatan"/>
+            <Button
+                android:id="@+id/btn_cari"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="390dp"
+                android:backgroundTint="@color/hijau"
+                android:layout_marginStart="120dp"
+                android:layout_marginBottom="10dp"
+                android:text="Cari"/>
+        </androidx.cardview.widget.CardView>
+        <View
+            android:id="@+id/view_kosong"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tempat"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

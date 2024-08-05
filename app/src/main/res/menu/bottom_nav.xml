@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Kegiatan"
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/nav_kegiatan"/>
+    <item android:title="Community"
+        android:id="@+id/bottom_community"
+        android:icon="@drawable/nav_komunitas"/>
+    <item android:title="Konten Edukasi"
+        android:id="@+id/bottom_content"
+        android:icon="@drawable/nav_konten"/>
+</menu>

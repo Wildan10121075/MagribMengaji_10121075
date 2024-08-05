@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Magrib Mengaji</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lokasi_kegiatan">Jl. Wastukencana No.27, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117</string>
+    <string name="deskripsi_kegiatan">Mengadakan kegiatan pengajian dan Magrib Mengaji setiap hari setelah sholat Maghrib.</string>
+    <string name="nama_tempat">Masjid Al Ukhuwah</string>
+</resources>
