@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639149679179",
+    "project_id": "magribmengaji-10121075",
+    "storage_bucket": "magribmengaji-10121075.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639149679179:android:05ba7fa5a363747dc7e3ce",
+        "android_client_info": {
+          "package_name": "com.wildan.magribmengaji_10121075"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8_wKCqNHx3-pvzKfjA1BDo8Si-JXFDG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
